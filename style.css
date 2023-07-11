@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.header1,
+footer {
+    color: white;
+    background-color: rgb(58, 40, 51);
+    font-size: 20px;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nick {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.avatar {
+    display: flex;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    justify-content: flex-start;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.Experience {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.data {
+    display: flex;
+    min-width: 100px;
+}
+
+.content {
+
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+    padding: 10px 20px 30px 0;
+}
+
+.post {
+
+    padding-left: 180px;
+}
+
+.content,
+.form1 {
+    display: flex;
+    text-align: left;
+    color: rgb(58, 40, 51);
+
+}
+
+.form1 {
+    background-color: rgb(245, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.name_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.info,
+.form_textarea {
+    outline:none;
+    background-color: rgb(245, 231, 231);
+    border: none;
+    border-bottom: 2px solid rgb(177, 153, 153);
+    width: 200px;
+}
+
+.form_textarea {
+    display: flex;
+    height: 20px;
+    resize: none;
+    width: 500px;
+    justify-content: center;
+
+}
+
+.textarea_flex {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn_send {
+
+    background-color: rgb(58, 40, 51);
+    color: white;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.contacts {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.p_footer {
+    color: rgb(100, 95, 95);
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer_flex link {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contact_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.li_footer {
+    list-style-type: none;
+}
